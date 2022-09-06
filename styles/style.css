@@ -1,23 +1,28 @@
 * {
   box-sizing:border-box;
 }
-
 html {
-  height:108vh;
-  background-color: #f5e86c;
+	height: 100%;
+ background: -webkit-linear-gradient(#f5ef42, #05686b);
 }
+/**html:active {
+  height:108vh;
+	background-image: url("../assets/GoodBirbMolly.jpg");
+} **/
 
 body {
-  height:100vh;
+
   font-family: open sans;
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#10214e;
-  font-family: trebuchet ms;
+  color:pink;
+  font-family: Arial;
+  font-weight: bold;
 }
 
 article {
+	background-color: #800606;
   width:50vw;
   max-width: 25em;
   min-width:20em;
@@ -25,8 +30,6 @@ article {
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: #e33b3b;
-  background: linear-gradient(0deg, #e33b3b 40%, #ad2121 100%);
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
@@ -39,12 +42,23 @@ header {
   justify-content:center;
   align-items:center;
   justify-content:flex-end;
+
  
 }
 
 h1 {
+		font-family: Brush Script MT;
+		font-size: 50px;
   margin:2rem 0 1rem;
-  color: pink;
+    background: -webkit-linear-gradient(white, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+h1:hover{
+	color: white;
+	font-family: Comic Sans MS;
 }
 
 button {
@@ -127,8 +141,8 @@ dd:nth-of-type(2){
   transform: translateY(1rem);
 }
 
-p { 
-  margin:0
+#HelptDit { 
+  margin:45 10 10 10;
 }
 
 article > p {
@@ -168,3 +182,38 @@ body.expand img {
   width:15em;
 }
 
+.Molly1 {
+  position: relative;
+  float: right;
+  display: block;
+  background: -webkit-linear-gradient(#f5ef42, #05686b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.Molly2 {
+  position: relative;
+  float: left;
+  padding: 0 5 0 0;
+  display: block;
+  background: -webkit-linear-gradient(#f5ef42, #05686b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+
+.Molly-content {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.Molly1:active .Molly-content {
+  display: block;
+}
+.Molly2:active .Molly-content {
+  display: block;
+}
