@@ -50,7 +50,7 @@ h1 {
 		font-family: Brush Script MT;
 		font-size: 50px;
   margin:2rem 0 1rem;
-    background: -webkit-linear-gradient(white, pink);
+    background: -webkit-linear-gradient(white, #f556f5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
