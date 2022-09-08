@@ -50,18 +50,15 @@ h1 {
 		font-family: Brush Script MT;
 		font-size: 50px;
   margin:2rem 0 1rem;
-    background: -webkit-linear-gradient(white, aqua);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
+  color: yellow  
 }
 H3 {
-  color: aqua;
+  color: yellow;
   font-style: italic;  
 }
 
 h1:hover{
-	color: white;
+	color: yellowgreen;
 	font-family: Comic Sans MS;
 }
 
@@ -225,6 +222,7 @@ body.expand img {
 .MeerInfoBubbel {
   position: relative;
   display: inline-block;
+  color: aqua;
 }
 
 
