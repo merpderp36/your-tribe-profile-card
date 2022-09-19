@@ -75,10 +75,12 @@ button {
   padding:.25rem;
   transition:.25s;
 }
+
 button:focus {
   outline:none;
   background:pink;
 }
+
 button:focus svg {
   stroke: white;
 }
@@ -90,6 +92,7 @@ svg {
   left:calc(1.25rem - 12px);
   transition-delay: .25s;
 }
+
 button svg:nth-of-type(2) {
   opacity:0;
   transition-delay: 0ms;
@@ -129,6 +132,7 @@ dt{
   padding-top: .25rem;
   margin-top: .25rem;
 }
+
 dt:nth-of-type(1){ grid-area: html-dt; }
 dt:nth-of-type(2){ grid-area: css-dt; transform: translateY(1rem);}
 dt:nth-of-type(3){ grid-area: js-dt; }
@@ -138,6 +142,7 @@ dd {
   padding-left:.3rem;
   transition:.25s .3s;
 }
+
 dd:nth-of-type(2){  
   transform: translateY(1rem);
 }
@@ -189,8 +194,7 @@ body.expand img {
   display: block;
   background: -webkit-linear-gradient(#f5ef42, #05686b);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
+  -webkit-text-fill-color: transparent; 
 }
 
 .Molly2 {
@@ -200,10 +204,8 @@ body.expand img {
   display: block;
   background: -webkit-linear-gradient(#f5ef42, #05686b);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
+  -webkit-text-fill-color: transparent; 
 }
-
 
 .Molly-content {
   display: none;
@@ -224,7 +226,6 @@ body.expand img {
   display: inline-block;
   color: aqua;
 }
-
 
 .MeerInfoBubbel-content {
   display: none;
